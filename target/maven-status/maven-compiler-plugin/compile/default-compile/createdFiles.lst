@@ -1,10 +1,7 @@
-me/iyanuadelekan/paystackjava/core/Keys.class
-me/iyanuadelekan/paystackjava/core/Transactions.class
-me/iyanuadelekan/paystackjava/core/ApiConnection.class
-me/iyanuadelekan/paystackjava/core/Pages.class
-me/iyanuadelekan/paystackjava/core/Plans.class
-me/iyanuadelekan/paystackjava/constants/Definitions.class
-me/iyanuadelekan/paystackjava/core/Customers.class
-me/iyanuadelekan/paystackjava/core/Subscriptions.class
-me/iyanuadelekan/paystackjava/core/ApiQuery.class
-me/iyanuadelekan/paystackjava/core/PaystackInline.class
+me/mosesbassey/credojava/constants/Definitions.class
+me/mosesbassey/credojava/core/Payments.class
+me/mosesbassey/credojava/core/ApiQuery.class
+me/mosesbassey/credojava/core/ApiConnection.class
+me/mosesbassey/credojava/core/Transactions.class
+me/mosesbassey/credojava/core/Keys.class
+test/java/Test.class

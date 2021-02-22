@@ -2,27 +2,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.iyanuadelekan</groupId>
-    <artifactId>paystackjava</artifactId>
+    <groupId>me.mosesbassey</groupId>
+    <artifactId>credojava</artifactId>
     <packaging>jar</packaging>
     <version>1.1.0</version>
 
-    <name>PaystackJava</name>
+    <name>Credojava</name>
     <description>A Java based API wrapper for the Credo API 💰💸💰💰</description>
-    <url>https://github.com/SeunAdelekan/PaystackJava</url>
+    <url>https://github.com/Moses-Bassey/CredoJava</url>
 
     <licenses>
         <license>
             <name>The MIT License (MIT)</name>
-            <url>https://github.com/SeunAdelekan/PaystackJava/blob/master/LICENSE</url>
+            <url>https://github.com/Moses-Bassey/CredoJava/blob/master/README.md#license</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/SeunAdelekan/PaystackJava.git</connection>
+        <connection>scm:https://github.com/Moses-Bassey/CredoJava.git</connection>
         <tag>HEAD</tag>
-        <url>https://github.com/SeunAdelekan/PaystackJava</url>
+        <url>https://github.com/Moses-Bassey/CredoJava</url>
     </scm>
 
     <build>

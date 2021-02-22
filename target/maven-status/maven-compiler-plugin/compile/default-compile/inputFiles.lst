@@ -1,10 +1,7 @@
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/Pages.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/Transactions.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/ApiConnection.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/constants/Definitions.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/PaystackInline.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/Plans.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/Subscriptions.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/Customers.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/ApiQuery.java
-/Users/Iyanu/Repositories/GitHub/PaystackJava/src/main/java/paystackjava/core/Keys.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/test/java/Test.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/me/mosesbassey/credojava/core/Transactions.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/me/mosesbassey/credojava/core/Payments.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/me/mosesbassey/credojava/core/ApiQuery.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/me/mosesbassey/credojava/core/ApiConnection.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/me/mosesbassey/credojava/constants/Definitions.java
+/Users/mac/Documents/open_source/libraries/credo_java/src/me/mosesbassey/credojava/core/Keys.java
