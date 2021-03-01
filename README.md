@@ -27,7 +27,8 @@ CredoJava removes the grunt involved in consuming the Credo API and implements a
 To create a new Credo payments:
 ```java
 Payments payments = new Payments();
-payments.pay("[transRef]", "[amount]", "[customerEmail]","[customerName]", "[paymentOptions]", "[customerPhoneNo]", "[currency]","[redirectUrl]", "[reason]")
+payments.pay("[transRef]", "[amount]", "[customerEmail]","[customerName]", "[paymentOptions]", "[customerPhoneNo]", "[currency]","[redirectUrl]"
+	)
 ```
 
 **Remember to always shut down the API connection once you are done making requests**

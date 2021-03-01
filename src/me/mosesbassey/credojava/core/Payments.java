@@ -57,15 +57,18 @@ public class Payments {
      * @param securityCode
      * @return
      */
-    public JSONObject cardThirdParty(String transRef, String orderAmount, String customerEmail, String customerName,
-                                       String securityCode, String expiryMonth, String orderCurrency, String expiryYear)
+    public JSONObject thirdPartyPay(String transRef, String orderAmount, String customerEmail, String customerName,
+                                       String securityCode, String cardNumber, String customerPhoneNo, String paymentSlug, String expiryMonth, String orderCurrency, String expiryYear)
     {
         this.apiConnection = new ApiConnection(Definitions.CREDO_PAYMENTS_CARD_THIRD_PARTY_PAY);
         ApiQuery apiQuery = new ApiQuery();
         apiQuery.putParams("transRef", transRef);
         apiQuery.putParams("orderAmount", orderAmount);
-        apiQuery.putParams("customerEmail", customerEmail);
+        apiQuery.putParams("customerEmail", orderAmount);
+        apiQuery.putParams("cardNumber", cardNumber);
+        apiQuery.putParams("customerPhoneNo", customerPhoneNo);
         apiQuery.putParams("customerName", customerName);
+        apiQuery.putParams("paymentSlug", paymentSlug);
         apiQuery.putParams("securityCode", securityCode);
         apiQuery.putParams("orderCurrency", orderCurrency);
         apiQuery.putParams("expiryMonth", expiryMonth);
@@ -81,12 +84,13 @@ public class Payments {
      * @param orderCurrency
      * @return
      **/
-    public JSONObject verifyCardNumber(String cardNumber, String orderCurrency)
+    public JSONObject verifyCardNumber(String cardNumber, String orderCurrency, String paymentSlug)
     {
         this.apiConnection = new ApiConnection(Definitions.CREDO_PAYMENTS_CARD_THIRD_3DS_VERIFY_CARD_NUMBER);
         ApiQuery apiQuery = new ApiQuery();
         apiQuery.putParams("cardNumber", cardNumber);
         apiQuery.putParams("orderCurrency", orderCurrency);
+        apiQuery.putParams("paymentSlug", paymentSlug);
         return this.apiConnection.connectAndQuery(apiQuery);
     }
 
@@ -105,8 +109,9 @@ public class Payments {
      * @param redirectUrl
      * @return
      **/
-    public JSONObject pay(String transRef, String amount, String customerEmail,
-                                       String customerName, String paymentOptions, String customerPhoneNo, String currency, String redirectUrl, String reason)
+    public JSONObject pay(String transRef, 
+        String amount, String customerEmail,
+                                       String customerName, String paymentOptions, String customerPhoneNo, String currency, String redirectUrl)
     {
         this.apiConnection = new ApiConnection(Definitions.CREDO_PAYMENTS_CARD_THIRD_3DS_PAY);
         ApiQuery apiQuery = new ApiQuery();
@@ -118,7 +123,6 @@ public class Payments {
         apiQuery.putParams("customerPhoneNo", customerPhoneNo);
         apiQuery.putParams("currency", currency);
         apiQuery.putParams("redirectUrl", redirectUrl);
-        apiQuery.putParams("reason", reason);
         return this.apiConnection.connectAndQuery(apiQuery);
     }
 
