@@ -70,9 +70,6 @@ ApiConnection.shutDown();
 - initializeTransaction [JSONObject]
 - verifyTransaction [JSONObject]
 - fetchTransaction [JSONObject]
-- chargeAuthorization [JSONObject]
-- chargeToken [JSONObject]
-- exportTransactions [JSONObject]
 
 
 License
@@ -80,7 +77,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Iyanu Adelekan
+Copyright (c) 2016 Moses Bassey
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
