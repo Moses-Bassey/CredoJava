@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * @author Iyanu Adelekan on 18/07/2016.
+ * @author Moses on 18/07/2016.
  */
 class Keys {
 
