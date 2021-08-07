@@ -1,4 +1,4 @@
-[![Issue Count](https://codeclimate.com/github/SeunAdelekan/CredoJava/badges/issue_count.svg)](https://codeclimate.com/github/SeunAdelekan/CredoJava)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # CredoJava
@@ -77,7 +77,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Moses Bassey
+Copyright (c) 2021 Moses Bassey
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
