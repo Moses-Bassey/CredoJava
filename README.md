@@ -1,4 +1,3 @@
-[![Issue Count](https://codeclimate.com/github/SeunAdelekan/CredoJava/badges/issue_count.svg)](https://codeclimate.com/github/SeunAdelekan/CredoJava)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # CredoJava

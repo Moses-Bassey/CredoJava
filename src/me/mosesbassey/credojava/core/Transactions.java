@@ -13,7 +13,6 @@ public class Transactions {
 
     private ApiConnection apiConnection;
 
-
     /**
      * Used to verify a transaction
      *
@@ -24,6 +23,5 @@ public class Transactions {
         this.apiConnection = new ApiConnection(Definitions.CREDO_TRANSACTIONS_VERIFY_TRANSACTION + reference);
         return this.apiConnection.connectAndQueryWithGet();
     }
-
 
 }
