@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c978bc7e5373c477ea8be0dbac7b79c711386240
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # CredoJava
