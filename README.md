@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c978bc7e5373c477ea8be0dbac7b79c711386240
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # CredoJava
@@ -69,9 +73,6 @@ ApiConnection.shutDown();
 - initializeTransaction [JSONObject]
 - verifyTransaction [JSONObject]
 - fetchTransaction [JSONObject]
-- chargeAuthorization [JSONObject]
-- chargeToken [JSONObject]
-- exportTransactions [JSONObject]
 
 
 License
@@ -79,7 +80,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Iyanu Adelekan
+Copyright (c) 2021 Moses Bassey
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
